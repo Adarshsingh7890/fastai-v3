@@ -9,7 +9,7 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://drive.google.com/uc?export=download&id=1oHnUsiLpfftGLnCpil1MEiBpm-DW8X6z'
+export_file_url = 'https://www.googleapis.com/drive/v3/files/1oHnUsiLpfftGLnCpil1MEiBpm-DW8X6z?alt=media&key=AIzaSyCW3oIxf0jrmfoF3acOuCVt1vTwEHoZeEM'
 export_file_name = '2020resnet.pkl'
 
 classes = ['benign','malignant']
